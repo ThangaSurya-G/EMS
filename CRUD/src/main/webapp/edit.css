@@ -1,0 +1,72 @@
+body {
+    background-color: cyan;
+}
+
+a {
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+    margin-left: 850px;
+    color: aliceblue;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+
+form {
+    height: auto;
+    width: 350px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 15px auto; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input, form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 300px;
+    display: block;
+}
+
+.button {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+
+.button input {
+    padding: 5px 15px; 
+    font-size: 14px;
+    border-radius: 10px; 
+    border: none;
+    cursor: pointer;
+}
+
+.button input:hover {
+    font-weight: bold;
+    background-color: cyan;
+}
+

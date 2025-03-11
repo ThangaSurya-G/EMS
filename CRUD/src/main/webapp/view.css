@@ -1,0 +1,79 @@
+body {
+    background-color: cyan;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+}
+
+a:hover {
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table Header */
+th {
+    background-color: darkcyan;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+}
+
+tr:nth-child(odd) {
+    background-color: #555;
+}
+
+td a {
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+}
+
+td a:hover {
+    font-weight: bold;
+}
+
+td a[href*="edit"] {
+    background-color: orange;
+}
+
+td a[href*="del"] {
+    background-color: red;
+}
